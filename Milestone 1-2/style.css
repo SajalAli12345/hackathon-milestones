@@ -1,0 +1,81 @@
+/* General styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-conatiner {
+    background-color:papayawhip;
+    width: 80%;
+    display:flex ;
+    border-radius: 12px;
+    margin:0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    background-color: brown;
+    color: beige;
+    width: 35%;
+    padding: 20px;
+    border-right: 5px solid #2c2c2c;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-bottom:20px;
+    border: 5px solid #e63946;
+}
+h1 {
+    text-align: center;
+    font: size 24px;
+    margin-bottom: 35px;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: black;
+    border-radius: 10px;
+    margin: 20px 0 10px;
+    box-shadow: 0 0 15px salmon;
+}
+
+ul {
+    list-style-type: square;
+    margin: 10px 0;
+    padding: 10;
+}
+
+ul li {
+    margin: 6px;
+}
+
+/* left section styling */
+
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 9px;
+    cursor: pointer;
+    box-shadow: 0 0 15px darkorchid;
+}
+
+button:hover {
+    background-color:pink;
+}
